@@ -7,3 +7,13 @@ function guess() {
 }
 
 //implement new functions here
+function setHiddenFields(){
+	answer = [];
+	for(let i = 0; i < 4; i++){
+		answer[i] = Math.random();
+	}
+	console.log answer;
+}
+
+
+setHiddenFields();
